@@ -1,0 +1,640 @@
+[
+  {
+    "slug": "hero-backstage-makeup",
+    "role": "hero",
+    "alt": "Cinematic production scene used as the portfolio hero",
+    "source": "/Users/ekaterina/Desktop/Портфолио/30.jpg",
+    "originalWidth": 4096,
+    "originalHeight": 1716,
+    "variants": [
+      {
+        "width": 900,
+        "height": 377,
+        "webp": "assets/images/hero-backstage-makeup-900.webp",
+        "jpg": "assets/images/hero-backstage-makeup-900.jpg"
+      },
+      {
+        "width": 1600,
+        "height": 670,
+        "webp": "assets/images/hero-backstage-makeup-1600.webp",
+        "jpg": "assets/images/hero-backstage-makeup-1600.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1005,
+        "webp": "assets/images/hero-backstage-makeup-2400.webp",
+        "jpg": "assets/images/hero-backstage-makeup-2400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "about-katy-portrait",
+    "role": "about",
+    "alt": "Portrait of Katy Ilicheva",
+    "source": "/Users/ekaterina/Desktop/D6FA32C8-B5FC-42F3-B323-0BA4179CC675.PNG",
+    "originalWidth": 1024,
+    "originalHeight": 1536,
+    "variants": [
+      {
+        "width": 420,
+        "height": 630,
+        "webp": "assets/images/about-katy-portrait-420.webp",
+        "jpg": "assets/images/about-katy-portrait-420.jpg"
+      },
+      {
+        "width": 720,
+        "height": 1080,
+        "webp": "assets/images/about-katy-portrait-720.webp",
+        "jpg": "assets/images/about-katy-portrait-720.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1536,
+        "webp": "assets/images/about-katy-portrait-1024.webp",
+        "jpg": "assets/images/about-katy-portrait-1024.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bazaar-sculptural-floor",
+    "role": "bazaar",
+    "alt": "BAZAAR editorial portrait with sculptural styling",
+    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_6.JPEG",
+    "originalWidth": 2700,
+    "originalHeight": 3375,
+    "variants": [
+      {
+        "width": 520,
+        "height": 650,
+        "webp": "assets/images/bazaar-sculptural-floor-520.webp",
+        "jpg": "assets/images/bazaar-sculptural-floor-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1125,
+        "webp": "assets/images/bazaar-sculptural-floor-900.webp",
+        "jpg": "assets/images/bazaar-sculptural-floor-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1750,
+        "webp": "assets/images/bazaar-sculptural-floor-1400.webp",
+        "jpg": "assets/images/bazaar-sculptural-floor-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bazaar-white-collar",
+    "role": "bazaar",
+    "alt": "BAZAAR editorial portrait with a white sculptural collar",
+    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_13.JPEG",
+    "originalWidth": 2700,
+    "originalHeight": 3375,
+    "variants": [
+      {
+        "width": 520,
+        "height": 650,
+        "webp": "assets/images/bazaar-white-collar-520.webp",
+        "jpg": "assets/images/bazaar-white-collar-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1125,
+        "webp": "assets/images/bazaar-white-collar-900.webp",
+        "jpg": "assets/images/bazaar-white-collar-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1750,
+        "webp": "assets/images/bazaar-white-collar-1400.webp",
+        "jpg": "assets/images/bazaar-white-collar-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bazaar-seated-gloves",
+    "role": "bazaar",
+    "alt": "BAZAAR editorial portrait with black gloves",
+    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_16.JPEG",
+    "originalWidth": 2700,
+    "originalHeight": 3375,
+    "variants": [
+      {
+        "width": 520,
+        "height": 650,
+        "webp": "assets/images/bazaar-seated-gloves-520.webp",
+        "jpg": "assets/images/bazaar-seated-gloves-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1125,
+        "webp": "assets/images/bazaar-seated-gloves-900.webp",
+        "jpg": "assets/images/bazaar-seated-gloves-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1750,
+        "webp": "assets/images/bazaar-seated-gloves-1400.webp",
+        "jpg": "assets/images/bazaar-seated-gloves-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bloody-practical-effect",
+    "role": "bloody",
+    "alt": "Practical effects makeup for a film scene",
+    "source": "/Users/ekaterina/Desktop/Портфолио/23.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/bloody-practical-effect-520.webp",
+        "jpg": "assets/images/bloody-practical-effect-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/bloody-practical-effect-900.webp",
+        "jpg": "assets/images/bloody-practical-effect-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/bloody-practical-effect-960.webp",
+        "jpg": "assets/images/bloody-practical-effect-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bloody-wide-scene",
+    "role": "bloody",
+    "alt": "Wide cinematic scene with practical SFX makeup",
+    "source": "/Users/ekaterina/Desktop/Портфолио/31.jpg",
+    "originalWidth": 4096,
+    "originalHeight": 1716,
+    "variants": [
+      {
+        "width": 520,
+        "height": 218,
+        "webp": "assets/images/bloody-wide-scene-520.webp",
+        "jpg": "assets/images/bloody-wide-scene-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 377,
+        "webp": "assets/images/bloody-wide-scene-900.webp",
+        "jpg": "assets/images/bloody-wide-scene-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 587,
+        "webp": "assets/images/bloody-wide-scene-1400.webp",
+        "jpg": "assets/images/bloody-wide-scene-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "bloody-wide-production",
+    "role": "bloody",
+    "alt": "Wide nighttime film production scene with SFX makeup",
+    "source": "/Users/ekaterina/Desktop/Портфолио/24.jpg",
+    "originalWidth": 6000,
+    "originalHeight": 4000,
+    "variants": [
+      {
+        "width": 520,
+        "height": 347,
+        "webp": "assets/images/bloody-wide-production-520.webp",
+        "jpg": "assets/images/bloody-wide-production-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 600,
+        "webp": "assets/images/bloody-wide-production-900.webp",
+        "jpg": "assets/images/bloody-wide-production-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 933,
+        "webp": "assets/images/bloody-wide-production-1400.webp",
+        "jpg": "assets/images/bloody-wide-production-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-worktable",
+    "role": "prosthetics",
+    "alt": "SFX prosthetics tools and pigments on a worktable",
+    "source": "/Users/ekaterina/Desktop/Портфолио/21.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-worktable-520.webp",
+        "jpg": "assets/images/prosthetics-worktable-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-worktable-900.webp",
+        "jpg": "assets/images/prosthetics-worktable-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-worktable-960.webp",
+        "jpg": "assets/images/prosthetics-worktable-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-neck-detail",
+    "role": "prosthetics",
+    "alt": "Silicone prosthetic application detail for film makeup",
+    "source": "/Users/ekaterina/Desktop/Портфолио/14.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-neck-detail-520.webp",
+        "jpg": "assets/images/prosthetics-neck-detail-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-neck-detail-900.webp",
+        "jpg": "assets/images/prosthetics-neck-detail-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-neck-detail-960.webp",
+        "jpg": "assets/images/prosthetics-neck-detail-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-finger-piece",
+    "role": "prosthetics",
+    "alt": "Silicone finger prosthetic detail in progress",
+    "source": "/Users/ekaterina/Desktop/Портфолио/16.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-finger-piece-520.webp",
+        "jpg": "assets/images/prosthetics-finger-piece-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-finger-piece-900.webp",
+        "jpg": "assets/images/prosthetics-finger-piece-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-finger-piece-960.webp",
+        "jpg": "assets/images/prosthetics-finger-piece-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-character-makeup",
+    "role": "prosthetics",
+    "alt": "Character SFX makeup on set",
+    "source": "/Users/ekaterina/Desktop/Портфолио/18.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-character-makeup-520.webp",
+        "jpg": "assets/images/prosthetics-character-makeup-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-character-makeup-900.webp",
+        "jpg": "assets/images/prosthetics-character-makeup-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-character-makeup-960.webp",
+        "jpg": "assets/images/prosthetics-character-makeup-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-bruising-test",
+    "role": "prosthetics",
+    "alt": "SFX bruising and character makeup test",
+    "source": "/Users/ekaterina/Desktop/Портфолио/19.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-bruising-test-520.webp",
+        "jpg": "assets/images/prosthetics-bruising-test-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-bruising-test-900.webp",
+        "jpg": "assets/images/prosthetics-bruising-test-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-bruising-test-960.webp",
+        "jpg": "assets/images/prosthetics-bruising-test-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-character-night",
+    "role": "prosthetics",
+    "alt": "Finished character SFX makeup at night",
+    "source": "/Users/ekaterina/Desktop/Портфолио/22.jpeg",
+    "originalWidth": 960,
+    "originalHeight": 1280,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "webp": "assets/images/prosthetics-character-night-520.webp",
+        "jpg": "assets/images/prosthetics-character-night-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "webp": "assets/images/prosthetics-character-night-900.webp",
+        "jpg": "assets/images/prosthetics-character-night-900.jpg"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "webp": "assets/images/prosthetics-character-night-960.webp",
+        "jpg": "assets/images/prosthetics-character-night-960.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-green-field",
+    "role": "commercial",
+    "alt": "Commercial fashion photoshoot in a green field",
+    "source": "/Users/ekaterina/Desktop/Портфолио/4.jpg",
+    "originalWidth": 2903,
+    "originalHeight": 4359,
+    "variants": [
+      {
+        "width": 520,
+        "height": 781,
+        "webp": "assets/images/commercial-green-field-520.webp",
+        "jpg": "assets/images/commercial-green-field-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1351,
+        "webp": "assets/images/commercial-green-field-900.webp",
+        "jpg": "assets/images/commercial-green-field-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2102,
+        "webp": "assets/images/commercial-green-field-1400.webp",
+        "jpg": "assets/images/commercial-green-field-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-blue-sky-duo",
+    "role": "commercial",
+    "alt": "Commercial fashion portrait under a blue sky",
+    "source": "/Users/ekaterina/Desktop/Портфолио/13.jpg",
+    "originalWidth": 4354,
+    "originalHeight": 2900,
+    "variants": [
+      {
+        "width": 520,
+        "height": 346,
+        "webp": "assets/images/commercial-blue-sky-duo-520.webp",
+        "jpg": "assets/images/commercial-blue-sky-duo-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 599,
+        "webp": "assets/images/commercial-blue-sky-duo-900.webp",
+        "jpg": "assets/images/commercial-blue-sky-duo-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 932,
+        "webp": "assets/images/commercial-blue-sky-duo-1400.webp",
+        "jpg": "assets/images/commercial-blue-sky-duo-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-grass-duo",
+    "role": "commercial",
+    "alt": "Commercial fashion composition with two models on grass",
+    "source": "/Users/ekaterina/Desktop/Портфолио/10.jpg",
+    "originalWidth": 4528,
+    "originalHeight": 3016,
+    "variants": [
+      {
+        "width": 520,
+        "height": 346,
+        "webp": "assets/images/commercial-grass-duo-520.webp",
+        "jpg": "assets/images/commercial-grass-duo-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 599,
+        "webp": "assets/images/commercial-grass-duo-900.webp",
+        "jpg": "assets/images/commercial-grass-duo-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 933,
+        "webp": "assets/images/commercial-grass-duo-1400.webp",
+        "jpg": "assets/images/commercial-grass-duo-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-white-look-two",
+    "role": "commercial",
+    "alt": "Commercial studio portrait with white styling",
+    "source": "/Users/ekaterina/Desktop/Портфолио/28.png",
+    "originalWidth": 2500,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/commercial-white-look-two-520.webp",
+        "jpg": "assets/images/commercial-white-look-two-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/commercial-white-look-two-900.webp",
+        "jpg": "assets/images/commercial-white-look-two-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/commercial-white-look-two-1400.webp",
+        "jpg": "assets/images/commercial-white-look-two-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-white-full-look",
+    "role": "commercial",
+    "alt": "Full-length commercial fashion look in white",
+    "source": "/Users/ekaterina/Desktop/Портфолио/29.png",
+    "originalWidth": 2500,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/commercial-white-full-look-520.webp",
+        "jpg": "assets/images/commercial-white-full-look-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/commercial-white-full-look-900.webp",
+        "jpg": "assets/images/commercial-white-full-look-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/commercial-white-full-look-1400.webp",
+        "jpg": "assets/images/commercial-white-full-look-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-white-look-one",
+    "role": "commercial",
+    "alt": "Commercial fashion portrait in a white headpiece",
+    "source": "/Users/ekaterina/Desktop/Портфолио/26.png",
+    "originalWidth": 2500,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/commercial-white-look-one-520.webp",
+        "jpg": "assets/images/commercial-white-look-one-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/commercial-white-look-one-900.webp",
+        "jpg": "assets/images/commercial-white-look-one-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/commercial-white-look-one-1400.webp",
+        "jpg": "assets/images/commercial-white-look-one-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "creative-green-face",
+    "role": "creative",
+    "alt": "Creative makeup portrait with green and black face paint",
+    "source": "/Users/ekaterina/Desktop/Портфолио/7.png",
+    "originalWidth": 2500,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/creative-green-face-520.webp",
+        "jpg": "assets/images/creative-green-face-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/creative-green-face-900.webp",
+        "jpg": "assets/images/creative-green-face-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/creative-green-face-1400.webp",
+        "jpg": "assets/images/creative-green-face-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "creative-practical-face",
+    "role": "creative",
+    "alt": "Creative practical SFX face makeup",
+    "source": "/Users/ekaterina/Desktop/Портфолио/462E1342-5237-44B4-83A8-789917B55EC3.JPG",
+    "originalWidth": 736,
+    "originalHeight": 1193,
+    "variants": [
+      {
+        "width": 520,
+        "height": 843,
+        "webp": "assets/images/creative-practical-face-520.webp",
+        "jpg": "assets/images/creative-practical-face-520.jpg"
+      },
+      {
+        "width": 736,
+        "height": 1193,
+        "webp": "assets/images/creative-practical-face-736.webp",
+        "jpg": "assets/images/creative-practical-face-736.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "creative-dark-eyes",
+    "role": "creative",
+    "alt": "Creative SFX makeup portrait with dark eye treatment",
+    "source": "/Users/ekaterina/Desktop/Портфолио/1.png",
+    "originalWidth": 3000,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 650,
+        "webp": "assets/images/creative-dark-eyes-520.webp",
+        "jpg": "assets/images/creative-dark-eyes-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1125,
+        "webp": "assets/images/creative-dark-eyes-900.webp",
+        "jpg": "assets/images/creative-dark-eyes-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1750,
+        "webp": "assets/images/creative-dark-eyes-1400.webp",
+        "jpg": "assets/images/creative-dark-eyes-1400.jpg"
+      }
+    ]
+  }
+]
