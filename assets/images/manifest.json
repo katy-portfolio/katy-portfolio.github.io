@@ -560,6 +560,90 @@
     ]
   },
   {
+    "slug": "commercial-lakeside-luggage",
+    "role": "commercial",
+    "alt": "Lakeside commercial fashion portrait with statement luggage",
+    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF9183 2.JPG",
+    "originalWidth": 4160,
+    "originalHeight": 6240,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/commercial-lakeside-luggage-520.webp",
+        "jpg": "assets/images/commercial-lakeside-luggage-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/commercial-lakeside-luggage-900.webp",
+        "jpg": "assets/images/commercial-lakeside-luggage-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/commercial-lakeside-luggage-1400.webp",
+        "jpg": "assets/images/commercial-lakeside-luggage-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-lakeside-bench",
+    "role": "commercial",
+    "alt": "Lakeside commercial beauty portrait in a patterned dress",
+    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF8982.JPG",
+    "originalWidth": 4160,
+    "originalHeight": 6240,
+    "variants": [
+      {
+        "width": 520,
+        "height": 780,
+        "webp": "assets/images/commercial-lakeside-bench-520.webp",
+        "jpg": "assets/images/commercial-lakeside-bench-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1350,
+        "webp": "assets/images/commercial-lakeside-bench-900.webp",
+        "jpg": "assets/images/commercial-lakeside-bench-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 2100,
+        "webp": "assets/images/commercial-lakeside-bench-1400.webp",
+        "jpg": "assets/images/commercial-lakeside-bench-1400.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "commercial-summer-duo",
+    "role": "commercial",
+    "alt": "Commercial summer fashion portrait of two models",
+    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF8841.jpg",
+    "originalWidth": 6240,
+    "originalHeight": 4160,
+    "variants": [
+      {
+        "width": 520,
+        "height": 347,
+        "webp": "assets/images/commercial-summer-duo-520.webp",
+        "jpg": "assets/images/commercial-summer-duo-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 600,
+        "webp": "assets/images/commercial-summer-duo-900.webp",
+        "jpg": "assets/images/commercial-summer-duo-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 933,
+        "webp": "assets/images/commercial-summer-duo-1400.webp",
+        "jpg": "assets/images/commercial-summer-duo-1400.jpg"
+      }
+    ]
+  },
+  {
     "slug": "creative-green-face",
     "role": "creative",
     "alt": "Creative makeup portrait with green and black face paint",

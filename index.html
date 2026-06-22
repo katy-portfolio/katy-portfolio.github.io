@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>katy-portfolio</title>
+    <title>Katy Ilicheva | Film &amp; SFX Makeup Artist</title>
     <meta
       name="description"
       content="Katy Ilicheva is a Munich-based Film and SFX Makeup Artist working across cinematic beauty, character design, prosthetics, fashion, and commercial productions."
@@ -23,16 +23,16 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Oswald:wght@500;600;700&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="assets/styles.css">
-    <script src="assets/script.js" defer></script>
+    <link rel="stylesheet" href="assets/styles.css?v=20260622-3">
+    <script src="assets/script.js?v=20260622-2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#photos">Skip to portfolio</a>
 
     <header class="site-header" data-header>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About me</a>
         <a href="#photos">Photos</a>
+        <a href="#about">About</a>
         <a href="#contacts">Contacts</a>
       </nav>
 
@@ -86,13 +86,23 @@
         </picture>
         <div class="hero-copy reveal">
           <h1>KATY ILICHEVA</h1>
-          <p>Film &amp; SFX Makeup Artist based in Munich. Specializing in cinematic beauty, character design and commercial productions.</p>
+          <p>Film &amp; SFX Makeup Artist in Munich. Cinematic beauty, prosthetics and character work for film, fashion and commercial productions.</p>
         </div>
       </section>
 
+      <aside class="credentials" aria-label="Professional details">
+        <p>Munich</p>
+        <p>Film, fashion and commercial</p>
+        <p>Available internationally</p>
+      </aside>
+
       <section class="portfolio" id="photos" aria-labelledby="photos-title">
         <h2 class="visually-hidden" id="photos-title">Photos</h2>
-        <div class="gallery-stack" data-gallery-root aria-live="polite"></div>
+        <div class="gallery-stack" data-gallery-root aria-live="polite">
+          <noscript>
+            <p class="gallery-message">The portfolio needs JavaScript to display. You can still <a href="mailto:kate.mua.art@gmail.com">email Katy directly</a>.</p>
+          </noscript>
+        </div>
       </section>
 
       <section class="about-section reveal" id="about" aria-labelledby="about-title">
@@ -125,34 +135,35 @@
         <div class="about-copy">
           <h2 id="about-title">About me</h2>
           <p>
-            Munich-based Makeup &amp; SFX Artist working across film, fashion and commercial productions. From cinematic beauty to prosthetics and character design, adaptable to every creative environment. Available internationally.
+            Munich-based Makeup &amp; SFX Artist working across film, fashion and commercial productions. Katy moves between cinematic beauty, prosthetics and character design, adapting each look to the story, camera and production environment.
           </p>
+          <p class="about-availability">Based in Munich and available internationally.</p>
         </div>
       </section>
 
       <section class="contact-section reveal" id="contacts" aria-labelledby="contacts-title">
-        <h2 id="contacts-title">Get in touch</h2>
+        <div class="contact-copy">
+          <p class="contact-kicker">Bookings and collaborations</p>
+          <h2 id="contacts-title">Let’s create the character.</h2>
+          <p>For film, fashion and commercial projects, email is the best place to start.</p>
+        </div>
         <div class="contact-actions" aria-label="Contact options">
-          <a class="contact-link" href="https://www.instagram.com/katieilicheva?igsh=MTZ5eDFteHQ2YmZyeg%3D%3D&utm_source=qr" aria-label="Open Instagram" target="_blank" rel="noopener">
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <rect x="4.5" y="4.5" width="15" height="15" rx="4.2"></rect>
-              <circle cx="12" cy="12" r="3.6"></circle>
-              <circle class="icon-fill" cx="16.4" cy="7.6" r="1.1"></circle>
-            </svg>
-          </a>
-          <a class="contact-link" href="https://wa.me/4915752085195" aria-label="Open WhatsApp" target="_blank" rel="noopener">
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M5.4 19.2l.9-3.3a7.4 7.4 0 1 1 2.8 2.6z"></path>
-              <path d="M9.4 8.7c.3 2.9 2 4.8 4.9 5.8l1.2-1.2c.2-.2.5-.3.8-.2l1.4.5"></path>
-            </svg>
-          </a>
-          <a class="contact-link" href="mailto:kate.mua.art@gmail.com" aria-label="Send email">
+          <a class="contact-link contact-link--primary" href="mailto:kate.mua.art@gmail.com">
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <rect x="3.8" y="6.2" width="16.4" height="11.6" rx="2"></rect>
               <path d="M5 8l7 5.2L19 8"></path>
             </svg>
+            <span>Email Katy</span>
+          </a>
+          <a class="contact-link" href="https://wa.me/4915752085195" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5.4 19.2l.9-3.3a7.4 7.4 0 1 1 2.8 2.6z"></path>
+              <path d="M9.4 8.7c.3 2.9 2 4.8 4.9 5.8l1.2-1.2c.2-.2.5-.3.8-.2l1.4.5"></path>
+            </svg>
+            <span>WhatsApp</span>
           </a>
         </div>
+        <a class="contact-instagram" href="https://www.instagram.com/katieilicheva?igsh=MTZ5eDFteHQ2YmZyeg%3D%3D&utm_source=qr" target="_blank" rel="noopener">View current work on Instagram</a>
       </section>
     </main>
 
