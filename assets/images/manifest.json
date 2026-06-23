@@ -23,6 +23,18 @@
         "height": 1005,
         "webp": "assets/images/hero-backstage-makeup-2400.webp",
         "jpg": "assets/images/hero-backstage-makeup-2400.jpg"
+      },
+      {
+        "width": 3200,
+        "height": 1341,
+        "webp": "assets/images/hero-backstage-makeup-3200.webp",
+        "jpg": "assets/images/hero-backstage-makeup-3200.jpg"
+      },
+      {
+        "width": 4096,
+        "height": 1716,
+        "webp": "assets/images/hero-backstage-makeup-4096.webp",
+        "jpg": "assets/images/hero-backstage-makeup-4096.jpg"
       }
     ]
   },
@@ -77,6 +89,18 @@
         "height": 1750,
         "webp": "assets/images/bazaar-sculptural-floor-1400.webp",
         "jpg": "assets/images/bazaar-sculptural-floor-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2500,
+        "webp": "assets/images/bazaar-sculptural-floor-2000.webp",
+        "jpg": "assets/images/bazaar-sculptural-floor-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3000,
+        "webp": "assets/images/bazaar-sculptural-floor-2400.webp",
+        "jpg": "assets/images/bazaar-sculptural-floor-2400.jpg"
       }
     ]
   },
@@ -104,6 +128,18 @@
         "height": 1750,
         "webp": "assets/images/bazaar-white-collar-1400.webp",
         "jpg": "assets/images/bazaar-white-collar-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2500,
+        "webp": "assets/images/bazaar-white-collar-2000.webp",
+        "jpg": "assets/images/bazaar-white-collar-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3000,
+        "webp": "assets/images/bazaar-white-collar-2400.webp",
+        "jpg": "assets/images/bazaar-white-collar-2400.jpg"
       }
     ]
   },
@@ -131,6 +167,18 @@
         "height": 1750,
         "webp": "assets/images/bazaar-seated-gloves-1400.webp",
         "jpg": "assets/images/bazaar-seated-gloves-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2500,
+        "webp": "assets/images/bazaar-seated-gloves-2000.webp",
+        "jpg": "assets/images/bazaar-seated-gloves-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3000,
+        "webp": "assets/images/bazaar-seated-gloves-2400.webp",
+        "jpg": "assets/images/bazaar-seated-gloves-2400.jpg"
       }
     ]
   },
@@ -185,6 +233,18 @@
         "height": 587,
         "webp": "assets/images/bloody-wide-scene-1400.webp",
         "jpg": "assets/images/bloody-wide-scene-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 838,
+        "webp": "assets/images/bloody-wide-scene-2000.webp",
+        "jpg": "assets/images/bloody-wide-scene-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1005,
+        "webp": "assets/images/bloody-wide-scene-2400.webp",
+        "jpg": "assets/images/bloody-wide-scene-2400.jpg"
       }
     ]
   },
@@ -212,6 +272,18 @@
         "height": 933,
         "webp": "assets/images/bloody-wide-production-1400.webp",
         "jpg": "assets/images/bloody-wide-production-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 1333,
+        "webp": "assets/images/bloody-wide-production-2000.webp",
+        "jpg": "assets/images/bloody-wide-production-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1600,
+        "webp": "assets/images/bloody-wide-production-2400.webp",
+        "jpg": "assets/images/bloody-wide-production-2400.jpg"
       }
     ]
   },
@@ -401,6 +473,18 @@
         "height": 2102,
         "webp": "assets/images/commercial-green-field-1400.webp",
         "jpg": "assets/images/commercial-green-field-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3003,
+        "webp": "assets/images/commercial-green-field-2000.webp",
+        "jpg": "assets/images/commercial-green-field-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3604,
+        "webp": "assets/images/commercial-green-field-2400.webp",
+        "jpg": "assets/images/commercial-green-field-2400.jpg"
       }
     ]
   },
@@ -428,6 +512,18 @@
         "height": 932,
         "webp": "assets/images/commercial-blue-sky-duo-1400.webp",
         "jpg": "assets/images/commercial-blue-sky-duo-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 1332,
+        "webp": "assets/images/commercial-blue-sky-duo-2000.webp",
+        "jpg": "assets/images/commercial-blue-sky-duo-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1599,
+        "webp": "assets/images/commercial-blue-sky-duo-2400.webp",
+        "jpg": "assets/images/commercial-blue-sky-duo-2400.jpg"
       }
     ]
   },
@@ -455,6 +551,18 @@
         "height": 933,
         "webp": "assets/images/commercial-grass-duo-1400.webp",
         "jpg": "assets/images/commercial-grass-duo-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 1332,
+        "webp": "assets/images/commercial-grass-duo-2000.webp",
+        "jpg": "assets/images/commercial-grass-duo-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1599,
+        "webp": "assets/images/commercial-grass-duo-2400.webp",
+        "jpg": "assets/images/commercial-grass-duo-2400.jpg"
       }
     ]
   },
@@ -482,6 +590,18 @@
         "height": 2100,
         "webp": "assets/images/commercial-white-look-two-1400.webp",
         "jpg": "assets/images/commercial-white-look-two-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/commercial-white-look-two-2000.webp",
+        "jpg": "assets/images/commercial-white-look-two-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/commercial-white-look-two-2400.webp",
+        "jpg": "assets/images/commercial-white-look-two-2400.jpg"
       }
     ]
   },
@@ -509,6 +629,18 @@
         "height": 2100,
         "webp": "assets/images/commercial-white-full-look-1400.webp",
         "jpg": "assets/images/commercial-white-full-look-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/commercial-white-full-look-2000.webp",
+        "jpg": "assets/images/commercial-white-full-look-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/commercial-white-full-look-2400.webp",
+        "jpg": "assets/images/commercial-white-full-look-2400.jpg"
       }
     ]
   },
@@ -536,6 +668,18 @@
         "height": 2100,
         "webp": "assets/images/commercial-white-look-one-1400.webp",
         "jpg": "assets/images/commercial-white-look-one-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/commercial-white-look-one-2000.webp",
+        "jpg": "assets/images/commercial-white-look-one-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/commercial-white-look-one-2400.webp",
+        "jpg": "assets/images/commercial-white-look-one-2400.jpg"
       }
     ]
   },
@@ -563,6 +707,18 @@
         "height": 2100,
         "webp": "assets/images/commercial-lakeside-luggage-1400.webp",
         "jpg": "assets/images/commercial-lakeside-luggage-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/commercial-lakeside-luggage-2000.webp",
+        "jpg": "assets/images/commercial-lakeside-luggage-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/commercial-lakeside-luggage-2400.webp",
+        "jpg": "assets/images/commercial-lakeside-luggage-2400.jpg"
       }
     ]
   },
@@ -590,6 +746,18 @@
         "height": 2100,
         "webp": "assets/images/commercial-lakeside-bench-1400.webp",
         "jpg": "assets/images/commercial-lakeside-bench-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/commercial-lakeside-bench-2000.webp",
+        "jpg": "assets/images/commercial-lakeside-bench-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/commercial-lakeside-bench-2400.webp",
+        "jpg": "assets/images/commercial-lakeside-bench-2400.jpg"
       }
     ]
   },
@@ -656,6 +824,18 @@
         "height": 2100,
         "webp": "assets/images/creative-green-face-1400.webp",
         "jpg": "assets/images/creative-green-face-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 3000,
+        "webp": "assets/images/creative-green-face-2000.webp",
+        "jpg": "assets/images/creative-green-face-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3600,
+        "webp": "assets/images/creative-green-face-2400.webp",
+        "jpg": "assets/images/creative-green-face-2400.jpg"
       }
     ]
   },
@@ -704,6 +884,18 @@
         "height": 1750,
         "webp": "assets/images/creative-dark-eyes-1400.webp",
         "jpg": "assets/images/creative-dark-eyes-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2500,
+        "webp": "assets/images/creative-dark-eyes-2000.webp",
+        "jpg": "assets/images/creative-dark-eyes-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 3000,
+        "webp": "assets/images/creative-dark-eyes-2400.webp",
+        "jpg": "assets/images/creative-dark-eyes-2400.jpg"
       }
     ]
   }

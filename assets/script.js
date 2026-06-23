@@ -53,7 +53,7 @@ const primaryNavLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')]
 let galleryImages = [];
 let currentImageIndex = 0;
 let lastFocusedElement = null;
-const assetVersion = "20260623-quality";
+const assetVersion = "20260623-all-quality";
 
 function variantByWidth(item, width) {
   return item.variants.find((variant) => variant.width === width) || item.variants[item.variants.length - 1];
@@ -238,7 +238,7 @@ async function initGallery() {
   const timeout = window.setTimeout(() => controller.abort(), 12000);
 
   try {
-    const response = await fetch("assets/images/manifest.json?v=20260623-quality", {
+    const response = await fetch("assets/images/manifest.json?v=20260623-all-quality", {
       signal: controller.signal,
     });
     if (!response.ok) {
