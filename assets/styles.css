@@ -24,6 +24,7 @@
   --space-2xl: clamp(3rem, 6vw, 6rem);
   --gutter: clamp(1.25rem, 3vw, 4.5rem);
   --wide: min(100% - (var(--gutter) * 2), 1160px);
+  --gallery-wide: min(100% - (var(--gutter) * 2), 980px);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
   --z-sticky: 10;
@@ -219,6 +220,12 @@ button {
   stroke-width: 1.9;
 }
 
+.social-link svg.whatsapp-icon,
+.contact-link svg.whatsapp-icon {
+  fill: currentColor;
+  stroke: none;
+}
+
 .icon-fill {
   fill: currentColor;
   stroke: none;
@@ -293,30 +300,6 @@ button {
   animation: hero-copy-enter 680ms 230ms var(--ease) both;
 }
 
-.credentials {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: var(--wide);
-  margin-inline: auto;
-  border-block-end: 1px solid var(--line);
-  color: var(--muted);
-}
-
-.credentials p {
-  margin: 0;
-  padding-block: var(--space-md);
-  font-size: var(--text-small);
-  font-weight: 700;
-}
-
-.credentials p:nth-child(2) {
-  text-align: center;
-}
-
-.credentials p:last-child {
-  text-align: end;
-}
-
 .hero p {
   max-width: 680px;
   margin: clamp(1rem, 2vw, 1.45rem) auto 0;
@@ -338,7 +321,7 @@ button {
 }
 
 .gallery-section {
-  width: var(--wide);
+  width: var(--gallery-wide);
   min-width: 0;
   margin-inline: auto;
 }
@@ -369,14 +352,6 @@ button {
   font-weight: 700;
 }
 
-.gallery-role-bloody {
-  width: min(100% - (var(--gutter) * 2), 1280px);
-}
-
-.gallery-role-prosthetics {
-  width: min(100% - (var(--gutter) * 2), 1240px);
-}
-
 .gallery-role-creative {
   width: 100%;
   padding-block: clamp(3.4rem, 7vw, 7rem);
@@ -386,7 +361,7 @@ button {
 
 .gallery-role-creative .gallery-heading,
 .gallery-role-creative .gallery-grid {
-  width: var(--wide);
+  width: var(--gallery-wide);
   margin-inline: auto;
 }
 
@@ -419,11 +394,11 @@ button {
 }
 
 .layout-triptych .gallery-item.square {
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
 }
 
 .layout-rows .gallery-item.tall {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
 }
 
 .layout-collage .gallery-grid,
@@ -433,6 +408,8 @@ button {
 
 .layout-collage .gallery-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 8 / 5;
 }
 
 .layout-commercial .gallery-grid {
@@ -449,6 +426,8 @@ button {
 
 .commercial-group--collage {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 8 / 5;
 }
 
 .commercial-group--triptych {
@@ -461,38 +440,42 @@ button {
 
 .layout-collage .gallery-item.feature {
   grid-row: span 2;
-  aspect-ratio: 3 / 4;
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .layout-collage .gallery-item.side {
-  aspect-ratio: 16 / 9;
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .layout-commercial .gallery-item.feature {
   grid-column: auto;
   grid-row: span 2;
-  aspect-ratio: 2 / 3;
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .layout-commercial .gallery-item.side {
   grid-column: auto;
-  aspect-ratio: 16 / 9;
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .layout-commercial .gallery-item.commercial-portrait {
   grid-column: auto;
-  margin-block-start: clamp(1rem, 2.6vw, 2.5rem);
-  aspect-ratio: 2 / 3;
+  margin-block-start: 0;
+  aspect-ratio: 4 / 5;
 }
 
 .layout-commercial .gallery-item.commercial-pair {
   grid-column: auto;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 4 / 5;
 }
 
 .layout-commercial .gallery-item.commercial-wide {
   grid-column: 1 / -1;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 8 / 5;
 }
 
 .gallery-item picture,
@@ -521,7 +504,7 @@ button {
 
 .gallery-loading,
 .gallery-message {
-  width: var(--wide);
+  width: var(--gallery-wide);
   margin-inline: auto;
   color: var(--muted);
   font-size: 0.95rem;
@@ -807,16 +790,19 @@ button {
 }
 
 .reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition:
-    opacity 620ms var(--ease) var(--reveal-delay, 0ms),
-    transform 620ms var(--ease) var(--reveal-delay, 0ms);
+  opacity: 1;
+  transform: none;
 }
 
 .reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+  animation: reveal-enter 620ms var(--reveal-delay, 0ms) var(--ease) both;
+}
+
+@keyframes reveal-enter {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
 }
 
 @keyframes header-enter {
@@ -945,22 +931,6 @@ button {
     font-size: 0.98rem;
   }
 
-  .credentials {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .credentials p {
-    font-size: var(--text-caption);
-  }
-
-  .credentials p:nth-child(2) {
-    display: none;
-  }
-
-  .credentials p:last-child {
-    text-align: end;
-  }
-
   .portfolio {
     padding-block-start: 2rem;
   }
@@ -1015,7 +985,9 @@ button {
   }
 
   .layout-collage .gallery-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    aspect-ratio: 8 / 5;
   }
 
   .layout-commercial .gallery-grid {
@@ -1051,21 +1023,36 @@ button {
     scroll-snap-align: start;
   }
 
-  .layout-collage .gallery-item.feature,
+  .layout-collage .gallery-item.feature {
+    grid-column: auto;
+    grid-row: span 2;
+    margin-block-start: 0;
+    height: 100%;
+    aspect-ratio: auto;
+  }
+
   .layout-collage .gallery-item.side {
     grid-column: auto;
     grid-row: auto;
+    height: 100%;
     margin-block-start: 0;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: auto;
   }
 
-  .layout-commercial .gallery-item.feature,
+  .layout-commercial .gallery-item.feature {
+    grid-column: auto;
+    grid-row: span 2;
+    margin-block-start: 0;
+    height: 100%;
+    aspect-ratio: auto;
+  }
+
   .layout-commercial .gallery-item.commercial-portrait,
   .layout-commercial .gallery-item.commercial-pair {
     grid-column: auto;
     grid-row: auto;
     margin-block-start: 0;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 4 / 5;
   }
 
   .layout-commercial .gallery-item.commercial-wide {
@@ -1077,12 +1064,13 @@ button {
   .layout-commercial .gallery-item.side {
     grid-column: auto;
     grid-row: auto;
+    height: 100%;
     margin-block-start: 0;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: auto;
   }
 
   .layout-commercial .gallery-item.commercial-wide {
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 8 / 5;
   }
 
   .layout-triptych .gallery-item.portrait {
@@ -1090,11 +1078,11 @@ button {
   }
 
   .layout-triptych .gallery-item.square {
-    aspect-ratio: 1;
+    aspect-ratio: 4 / 5;
   }
 
   .layout-rows .gallery-item.tall {
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 4 / 5;
   }
 
   .about-section {
