@@ -53,6 +53,7 @@ const primaryNavLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')]
 let galleryImages = [];
 let currentImageIndex = 0;
 let lastFocusedElement = null;
+const assetVersion = "20260623-quality";
 
 function variantByWidth(item, width) {
   return item.variants.find((variant) => variant.width === width) || item.variants[item.variants.length - 1];
@@ -63,21 +64,35 @@ function largestVariant(item) {
 }
 
 function srcsetFor(item, format) {
-  return item.variants.map((variant) => `${variant[format]} ${variant.width}w`).join(", ");
+  return item.variants.map((variant) => `${withAssetVersion(variant[format])} ${variant.width}w`).join(", ");
+}
+
+function withAssetVersion(url) {
+  return `${url}?v=${assetVersion}`;
+}
+
+function sizesFor(layoutClass) {
+  if (layoutClass === "commercial-wide") {
+    return "(max-width: 680px) 92vw, (max-width: 1100px) calc(100vw - 2.5rem), 980px";
+  }
+
+  if (["wide", "landscape", "feature"].includes(layoutClass)) {
+    return "(max-width: 680px) 92vw, (max-width: 900px) 46vw, 50vw";
+  }
+
+  return "(max-width: 680px) 92vw, (max-width: 900px) 46vw, 33vw";
 }
 
 function renderPicture(item, layoutClass, index) {
   const fallback = variantByWidth(item, 900);
   const eager = index < 5 ? "eager" : "lazy";
-  const sizes = ["wide", "landscape", "feature"].includes(layoutClass)
-    ? "(max-width: 680px) 92vw, (max-width: 900px) 46vw, 50vw"
-    : "(max-width: 680px) 92vw, (max-width: 900px) 46vw, 33vw";
+  const sizes = sizesFor(layoutClass);
 
   return `
     <picture>
       <source type="image/webp" srcset="${srcsetFor(item, "webp")}" sizes="${sizes}">
       <img
-        src="${fallback.jpg}"
+        src="${withAssetVersion(fallback.jpg)}"
         srcset="${srcsetFor(item, "jpg")}"
         sizes="${sizes}"
         width="${fallback.width}"
@@ -94,7 +109,7 @@ function createGalleryButton(item, layoutClass, globalIndex) {
   button.className = `gallery-item ${layoutClass} reveal`;
   button.type = "button";
   button.dataset.index = String(globalIndex);
-  button.dataset.full = largestVariant(item).webp;
+  button.dataset.full = withAssetVersion(largestVariant(item).webp);
   button.dataset.alt = item.alt;
   button.setAttribute("aria-label", `Open image: ${item.alt}`);
   button.innerHTML = renderPicture(item, layoutClass, globalIndex);
@@ -147,7 +162,7 @@ function renderGalleries(manifest) {
         const index = category.role === "commercial" ? groupIndex * 3 + itemIndex : itemIndex;
         const globalIndex = galleryImages.length;
         const layoutClass = category.classes[index % category.classes.length] || "portrait";
-        galleryImages.push({ ...item, full: largestVariant(item).webp });
+        galleryImages.push({ ...item, full: withAssetVersion(largestVariant(item).webp) });
         const button = createGalleryButton(item, layoutClass, globalIndex);
         button.style.setProperty("--reveal-delay", `${Math.min(itemIndex, 2) * 90}ms`);
         groupRoot.append(button);
@@ -223,7 +238,7 @@ async function initGallery() {
   const timeout = window.setTimeout(() => controller.abort(), 12000);
 
   try {
-    const response = await fetch("assets/images/manifest.json?v=20260622-1", {
+    const response = await fetch("assets/images/manifest.json?v=20260623-quality", {
       signal: controller.signal,
     });
     if (!response.ok) {

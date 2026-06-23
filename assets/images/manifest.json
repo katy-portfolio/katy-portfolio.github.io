@@ -3,7 +3,6 @@
     "slug": "hero-backstage-makeup",
     "role": "hero",
     "alt": "Cinematic production scene used as the portfolio hero",
-    "source": "/Users/ekaterina/Desktop/Портфолио/30.jpg",
     "originalWidth": 4096,
     "originalHeight": 1716,
     "variants": [
@@ -31,7 +30,6 @@
     "slug": "about-katy-portrait",
     "role": "about",
     "alt": "Portrait of Katy Ilicheva",
-    "source": "/Users/ekaterina/Desktop/D6FA32C8-B5FC-42F3-B323-0BA4179CC675.PNG",
     "originalWidth": 1024,
     "originalHeight": 1536,
     "variants": [
@@ -59,7 +57,6 @@
     "slug": "bazaar-sculptural-floor",
     "role": "bazaar",
     "alt": "BAZAAR editorial portrait with sculptural styling",
-    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_6.JPEG",
     "originalWidth": 2700,
     "originalHeight": 3375,
     "variants": [
@@ -87,7 +84,6 @@
     "slug": "bazaar-white-collar",
     "role": "bazaar",
     "alt": "BAZAAR editorial portrait with a white sculptural collar",
-    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_13.JPEG",
     "originalWidth": 2700,
     "originalHeight": 3375,
     "variants": [
@@ -115,7 +111,6 @@
     "slug": "bazaar-seated-gloves",
     "role": "bazaar",
     "alt": "BAZAAR editorial portrait with black gloves",
-    "source": "/Users/ekaterina/Desktop/Портфолио/HBZVN_VOYAGEUR TEMPOREL_16.JPEG",
     "originalWidth": 2700,
     "originalHeight": 3375,
     "variants": [
@@ -143,7 +138,6 @@
     "slug": "bloody-practical-effect",
     "role": "bloody",
     "alt": "Practical effects makeup for a film scene",
-    "source": "/Users/ekaterina/Desktop/Портфолио/23.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -171,7 +165,6 @@
     "slug": "bloody-wide-scene",
     "role": "bloody",
     "alt": "Wide cinematic scene with practical SFX makeup",
-    "source": "/Users/ekaterina/Desktop/Портфолио/31.jpg",
     "originalWidth": 4096,
     "originalHeight": 1716,
     "variants": [
@@ -199,7 +192,6 @@
     "slug": "bloody-wide-production",
     "role": "bloody",
     "alt": "Wide nighttime film production scene with SFX makeup",
-    "source": "/Users/ekaterina/Desktop/Портфолио/24.jpg",
     "originalWidth": 6000,
     "originalHeight": 4000,
     "variants": [
@@ -227,7 +219,6 @@
     "slug": "prosthetics-worktable",
     "role": "prosthetics",
     "alt": "SFX prosthetics tools and pigments on a worktable",
-    "source": "/Users/ekaterina/Desktop/Портфолио/21.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -255,7 +246,6 @@
     "slug": "prosthetics-neck-detail",
     "role": "prosthetics",
     "alt": "Silicone prosthetic application detail for film makeup",
-    "source": "/Users/ekaterina/Desktop/Портфолио/14.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -283,7 +273,6 @@
     "slug": "prosthetics-finger-piece",
     "role": "prosthetics",
     "alt": "Silicone finger prosthetic detail in progress",
-    "source": "/Users/ekaterina/Desktop/Портфолио/16.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -311,7 +300,6 @@
     "slug": "prosthetics-character-makeup",
     "role": "prosthetics",
     "alt": "Character SFX makeup on set",
-    "source": "/Users/ekaterina/Desktop/Портфолио/18.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -339,7 +327,6 @@
     "slug": "prosthetics-bruising-test",
     "role": "prosthetics",
     "alt": "SFX bruising and character makeup test",
-    "source": "/Users/ekaterina/Desktop/Портфолио/19.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -367,7 +354,6 @@
     "slug": "prosthetics-character-night",
     "role": "prosthetics",
     "alt": "Finished character SFX makeup at night",
-    "source": "/Users/ekaterina/Desktop/Портфолио/22.jpeg",
     "originalWidth": 960,
     "originalHeight": 1280,
     "variants": [
@@ -395,7 +381,6 @@
     "slug": "commercial-green-field",
     "role": "commercial",
     "alt": "Commercial fashion photoshoot in a green field",
-    "source": "/Users/ekaterina/Desktop/Портфолио/4.jpg",
     "originalWidth": 2903,
     "originalHeight": 4359,
     "variants": [
@@ -423,7 +408,6 @@
     "slug": "commercial-blue-sky-duo",
     "role": "commercial",
     "alt": "Commercial fashion portrait under a blue sky",
-    "source": "/Users/ekaterina/Desktop/Портфолио/13.jpg",
     "originalWidth": 4354,
     "originalHeight": 2900,
     "variants": [
@@ -451,7 +435,6 @@
     "slug": "commercial-grass-duo",
     "role": "commercial",
     "alt": "Commercial fashion composition with two models on grass",
-    "source": "/Users/ekaterina/Desktop/Портфолио/10.jpg",
     "originalWidth": 4528,
     "originalHeight": 3016,
     "variants": [
@@ -479,7 +462,6 @@
     "slug": "commercial-white-look-two",
     "role": "commercial",
     "alt": "Commercial studio portrait with white styling",
-    "source": "/Users/ekaterina/Desktop/Портфолио/28.png",
     "originalWidth": 2500,
     "originalHeight": 3750,
     "variants": [
@@ -507,7 +489,6 @@
     "slug": "commercial-white-full-look",
     "role": "commercial",
     "alt": "Full-length commercial fashion look in white",
-    "source": "/Users/ekaterina/Desktop/Портфолио/29.png",
     "originalWidth": 2500,
     "originalHeight": 3750,
     "variants": [
@@ -535,7 +516,6 @@
     "slug": "commercial-white-look-one",
     "role": "commercial",
     "alt": "Commercial fashion portrait in a white headpiece",
-    "source": "/Users/ekaterina/Desktop/Портфолио/26.png",
     "originalWidth": 2500,
     "originalHeight": 3750,
     "variants": [
@@ -563,7 +543,6 @@
     "slug": "commercial-lakeside-luggage",
     "role": "commercial",
     "alt": "Lakeside commercial fashion portrait with statement luggage",
-    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF9183 2.JPG",
     "originalWidth": 4160,
     "originalHeight": 6240,
     "variants": [
@@ -591,7 +570,6 @@
     "slug": "commercial-lakeside-bench",
     "role": "commercial",
     "alt": "Lakeside commercial beauty portrait in a patterned dress",
-    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF8982.JPG",
     "originalWidth": 4160,
     "originalHeight": 6240,
     "variants": [
@@ -619,7 +597,6 @@
     "slug": "commercial-summer-duo",
     "role": "commercial",
     "alt": "Commercial summer fashion portrait of two models",
-    "source": "/Users/ekaterina/Desktop/Портфолио/DSCF8841.jpg",
     "originalWidth": 6240,
     "originalHeight": 4160,
     "variants": [
@@ -640,6 +617,18 @@
         "height": 933,
         "webp": "assets/images/commercial-summer-duo-1400.webp",
         "jpg": "assets/images/commercial-summer-duo-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 1333,
+        "webp": "assets/images/commercial-summer-duo-2000.webp",
+        "jpg": "assets/images/commercial-summer-duo-2000.jpg"
+      },
+      {
+        "width": 2400,
+        "height": 1600,
+        "webp": "assets/images/commercial-summer-duo-2400.webp",
+        "jpg": "assets/images/commercial-summer-duo-2400.jpg"
       }
     ]
   },
@@ -647,7 +636,6 @@
     "slug": "creative-green-face",
     "role": "creative",
     "alt": "Creative makeup portrait with green and black face paint",
-    "source": "/Users/ekaterina/Desktop/Портфолио/7.png",
     "originalWidth": 2500,
     "originalHeight": 3750,
     "variants": [
@@ -675,7 +663,6 @@
     "slug": "creative-practical-face",
     "role": "creative",
     "alt": "Creative practical SFX face makeup",
-    "source": "/Users/ekaterina/Desktop/Портфолио/462E1342-5237-44B4-83A8-789917B55EC3.JPG",
     "originalWidth": 736,
     "originalHeight": 1193,
     "variants": [
@@ -697,7 +684,6 @@
     "slug": "creative-dark-eyes",
     "role": "creative",
     "alt": "Creative SFX makeup portrait with dark eye treatment",
-    "source": "/Users/ekaterina/Desktop/Портфолио/1.png",
     "originalWidth": 3000,
     "originalHeight": 3750,
     "variants": [

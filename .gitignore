@@ -3,3 +3,6 @@
 .impeccable/
 DESIGN.md
 PRODUCT.md
+.DS_Store
+tools/
+README.md
