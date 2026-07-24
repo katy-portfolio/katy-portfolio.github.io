@@ -556,7 +556,8 @@ button {
 .about-media {
   position: relative;
   isolation: isolate;
-  width: min(100%, 36rem);
+  width: min(82vw, 28rem);
+  justify-self: end;
   overflow: hidden;
   background: var(--canvas);
 }
@@ -577,10 +578,10 @@ button {
 
 .about-media img {
   width: 100%;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 4 / 5;
   filter: grayscale(1) contrast(1.16) brightness(0.88);
   object-fit: cover;
-  object-position: center 26%;
+  object-position: center 22%;
 }
 
 .contact-section {
@@ -1028,7 +1029,13 @@ button {
 
   .about-media {
     grid-column: 8 / 13;
+    width: min(100%, 36rem);
     justify-self: end;
+  }
+
+  .about-media img {
+    aspect-ratio: 2 / 3;
+    object-position: center 26%;
   }
 
   .contact-actions {
