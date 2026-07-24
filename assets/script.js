@@ -1,24 +1,28 @@
 const CATEGORY_CONFIG = [
   {
     role: "bazaar",
+    index: "01",
     title: "BAZAAR Editorial",
     layout: "triptych",
     classes: ["portrait", "portrait", "portrait"],
   },
   {
     role: "bloody",
+    index: "02",
     title: "Bloody Film Scenes",
     layout: "collage",
     classes: ["feature", "side", "side"],
   },
   {
     role: "prosthetics",
+    index: "03",
     title: "Silicone Prosthetics for Film Production",
     layout: "rows",
-    classes: ["tall", "tall", "tall", "tall", "tall", "tall"],
+    classes: ["tall", "tall", "tall", "tall", "tall", "tall", "tall", "tall"],
   },
   {
     role: "commercial",
+    index: "04",
     title: "Commercial Photoshoot",
     layout: "commercial",
     classes: [
@@ -35,6 +39,7 @@ const CATEGORY_CONFIG = [
   },
   {
     role: "creative",
+    index: "05",
     title: "Creative Makeup with SFX Elements",
     layout: "triptych",
     classes: ["square", "square", "square"],
@@ -53,7 +58,7 @@ const primaryNavLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')]
 let galleryImages = [];
 let currentImageIndex = 0;
 let lastFocusedElement = null;
-const assetVersion = "20260623-green-shutters";
+const assetVersion = "20260724-monochrome";
 
 function variantByWidth(item, width) {
   return item.variants.find((variant) => variant.width === width) || item.variants[item.variants.length - 1];
@@ -64,7 +69,10 @@ function largestVariant(item) {
 }
 
 function srcsetFor(item, format) {
-  return item.variants.map((variant) => `${withAssetVersion(variant[format])} ${variant.width}w`).join(", ");
+  return item.variants
+    .filter((variant) => variant[format])
+    .map((variant) => `${withAssetVersion(variant[format])} ${variant.width}w`)
+    .join(", ");
 }
 
 function withAssetVersion(url) {
@@ -87,10 +95,11 @@ function renderPicture(item, layoutClass, index) {
   const fallback = variantByWidth(item, 900);
   const eager = index < 5 ? "eager" : "lazy";
   const sizes = sizesFor(layoutClass);
+  const webpSrcset = srcsetFor(item, "webp");
 
   return `
     <picture>
-      <source type="image/webp" srcset="${srcsetFor(item, "webp")}" sizes="${sizes}">
+      ${webpSrcset ? `<source type="image/webp" srcset="${webpSrcset}" sizes="${sizes}">` : ""}
       <img
         src="${withAssetVersion(fallback.jpg)}"
         srcset="${srcsetFor(item, "jpg")}"
@@ -98,6 +107,8 @@ function renderPicture(item, layoutClass, index) {
         width="${fallback.width}"
         height="${fallback.height}"
         loading="${eager}"
+        decoding="async"
+        fetchpriority="${index < 3 ? "high" : "auto"}"
         alt="${item.alt}"
       >
     </picture>
@@ -109,7 +120,7 @@ function createGalleryButton(item, layoutClass, globalIndex) {
   button.className = `gallery-item ${layoutClass} reveal`;
   button.type = "button";
   button.dataset.index = String(globalIndex);
-  button.dataset.full = withAssetVersion(largestVariant(item).webp);
+  button.dataset.full = withAssetVersion(largestVariant(item).webp || largestVariant(item).jpg);
   button.dataset.alt = item.alt;
   button.setAttribute("aria-label", `Open image: ${item.alt}`);
   button.innerHTML = renderPicture(item, layoutClass, globalIndex);
@@ -126,19 +137,22 @@ function renderGalleries(manifest) {
     const section = document.createElement("section");
     section.className = `gallery-section gallery-role-${category.role} layout-${category.layout}`;
     section.setAttribute("aria-labelledby", `${category.role}-title`);
+    section.dataset.chapter = category.index;
 
     const headingGroup = document.createElement("div");
-    headingGroup.className = "gallery-heading";
+    headingGroup.className = "chapter-heading reveal";
+    headingGroup.style.setProperty("--reveal-delay", "40ms");
+
+    const chapterIndex = document.createElement("span");
+    chapterIndex.className = "chapter-index";
+    chapterIndex.textContent = category.index;
+    chapterIndex.setAttribute("aria-hidden", "true");
 
     const heading = document.createElement("h2");
     heading.id = `${category.role}-title`;
     heading.textContent = category.title;
 
-    const hint = document.createElement("span");
-    hint.className = "gallery-hint";
-    hint.textContent = "Swipe to view";
-    hint.setAttribute("aria-hidden", "true");
-    headingGroup.append(heading, hint);
+    headingGroup.append(chapterIndex, heading);
 
     const grid = document.createElement("div");
     grid.className = "gallery-grid";
@@ -162,7 +176,10 @@ function renderGalleries(manifest) {
         const index = category.role === "commercial" ? groupIndex * 3 + itemIndex : itemIndex;
         const globalIndex = galleryImages.length;
         const layoutClass = category.classes[index % category.classes.length] || "portrait";
-        galleryImages.push({ ...item, full: withAssetVersion(largestVariant(item).webp) });
+        galleryImages.push({
+          ...item,
+          full: withAssetVersion(largestVariant(item).webp || largestVariant(item).jpg),
+        });
         const button = createGalleryButton(item, layoutClass, globalIndex);
         button.style.setProperty("--reveal-delay", `${Math.min(itemIndex, 2) * 90}ms`);
         groupRoot.append(button);
@@ -224,7 +241,7 @@ function observeReveals() {
         }
       });
     },
-    { rootMargin: "0px 0px -8% 0px", threshold: 0.12 },
+    { rootMargin: "0px 0px -6% 0px", threshold: 0.08 },
   );
 
   revealItems.forEach((item) => observer.observe(item));
@@ -238,7 +255,7 @@ async function initGallery() {
   const timeout = window.setTimeout(() => controller.abort(), 12000);
 
   try {
-    const response = await fetch("assets/images/manifest.json?v=20260623-green-shutters", {
+    const response = await fetch(`assets/images/manifest.json?v=${assetVersion}`, {
       signal: controller.signal,
     });
     if (!response.ok) {

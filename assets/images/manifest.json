@@ -898,5 +898,63 @@
         "jpg": "assets/images/creative-dark-eyes-2400.jpg"
       }
     ]
+  },
+  {
+    "slug": "prosthetics-bloody-mouth-portrait",
+    "role": "prosthetics",
+    "alt": "Finished silicone prosthetics character makeup portrait",
+    "originalWidth": 3000,
+    "originalHeight": 3750,
+    "variants": [
+      {
+        "width": 520,
+        "height": 650,
+        "jpg": "assets/images/prosthetics-bloody-mouth-portrait-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1125,
+        "jpg": "assets/images/prosthetics-bloody-mouth-portrait-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1750,
+        "jpg": "assets/images/prosthetics-bloody-mouth-portrait-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2500,
+        "jpg": "assets/images/prosthetics-bloody-mouth-portrait-2000.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "prosthetics-face-wound-studio",
+    "role": "prosthetics",
+    "alt": "Studio portrait featuring silicone wound prosthetics",
+    "originalWidth": 2500,
+    "originalHeight": 3333,
+    "variants": [
+      {
+        "width": 520,
+        "height": 693,
+        "jpg": "assets/images/prosthetics-face-wound-studio-520.jpg"
+      },
+      {
+        "width": 900,
+        "height": 1200,
+        "jpg": "assets/images/prosthetics-face-wound-studio-900.jpg"
+      },
+      {
+        "width": 1400,
+        "height": 1866,
+        "jpg": "assets/images/prosthetics-face-wound-studio-1400.jpg"
+      },
+      {
+        "width": 2000,
+        "height": 2666,
+        "jpg": "assets/images/prosthetics-face-wound-studio-2000.jpg"
+      }
+    ]
   }
 ]
